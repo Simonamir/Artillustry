@@ -17,11 +17,12 @@ header{
 .banner h1 {
   color: white;
   font-size: 24px;
+  position: absolute;
 }
 .banner h2{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+    font-size: 60px;
 }
 .search-box{
   font-family: "Font", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -29,7 +30,7 @@ header{
   height: 30px;
   top: 5%;
   margin-top: 2px;
-  margin-left: 90%;
+  margin-left: 340%;
   display: inline-block;
   border-radius: 60%;
 }
