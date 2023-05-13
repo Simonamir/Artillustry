@@ -1,0 +1,804 @@
+body{
+    margin: 0;
+    background-color: #c3c3a6;
+    font font-family: sans-serif;
+}
+header{
+    background-color: rgb(195, 195, 117);
+    height: 50px;
+}
+.banner {
+  background-color:  #BCBD8B;
+  padding: 5px;
+  text-align: left;
+  height: 80px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 24px;
+}
+.banner h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.search-box{
+  font-family: "Font", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #222;
+  height: 30px;
+  top: 5%;
+  margin-top: 2px;
+  margin-left: 90%;
+  display: inline-block;
+  border-radius: 60%;
+}
+
+.button {
+    background-color: #D9D9D9;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .sinistra {
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 80px;
+    width: 100%;
+  }
+  .destra{
+    display: block;
+    height: auto;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 900px;
+    margin-top: 50px;
+    width: 100%;
+}
+  .colored-box {
+    position: absolute;
+    display: block;
+    width: 360px;
+    height: 300px;
+    background-color: #BCBD8B;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 540px;
+  }
+  .text1 {
+    font-size: 18px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .text2 {
+    font-size: 18px;
+    top: 60%;
+    margin-top: 30px;
+  }
+ .bocain{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 600px;
+    width: 100%;
+ }
+ .labocain{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 80px;
+    width: 100%;
+ }
+ .karlottain{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 600px;
+    margin-top: 600px;
+    width: 100%;
+ }
+.karlottafrein{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 60px;
+    width: 100%;
+}
+.camilloin{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 1120px;
+    margin-top: 600px;
+    width: 100%;
+}
+.camillohuincain{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 55px;
+    width: 100%;
+}
+.timin{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 1100px;
+    width: 100%;
+}
+.timlahanin{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 60px;
+    width: 100%;
+}
+.xoanain{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 600px;
+    margin-top: 1100px;
+    width: 100%;
+}
+.xoanaherrerain{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 50px;
+    width: 100%;
+}
+.linnin{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 1120px;
+    margin-top: 1100px;
+    width: 100%;
+}
+.linnfritzin{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 80px;
+    width: 100%;
+}
+.frecciadx{
+  width: 100%;
+  margin: 0 10px;
+  height: 3%;
+  margin-top: 1600px;
+  margin-left: 1380px;
+  position: absolute;
+}
+.body2{
+    margin: 0;
+    background-color: #B7B1AA;
+    font font-family: sans-serif;
+}
+.bannerboca {
+    background-color:  #F1EADC;
+    padding: 8px;
+    text-align: center;
+    height: 115px;
+    font-size: 24px;
+  }
+  .sinistraboca{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 390px;
+    margin-top: 80px;
+  }
+  .centroboca{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 650px;
+    margin-top: 80px;
+  }
+  .destraboca{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 930px;
+    margin-top: 80px;
+  }
+  .colored-boxboca{
+    position: absolute;
+    display: block;
+    background-color: #F1EADC;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 530px;
+    padding: 10px;
+    height: 330px;
+    width: 400px;
+    font-size: 18px;
+  }
+ .imagesixboca{
+  width: 100%;
+  height: 100%;
+  margin-top: 60%;
+ }
+ .imagehomeboca{
+  width: 100%;
+  height: 100%;
+  margin-top: -4%;
+  margin-left: 50%;
+ }
+ .imagedxboca{
+  width: 100%;
+  height: 100%;
+  margin-top: -3%;
+  margin-left: 97%;
+ }
+  .body3{
+    margin: 0;
+    background-color: #8E9D8A;
+    font font-family: sans-serif;
+}
+.bannerkarlotta {
+    background-color:  #4C8E3F;
+    padding: 10px;
+    text-align: center;
+    height: 115px;
+    font-size: 24px;
+  }
+  .sinistrakarlotta{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 390px;
+    margin-top: 80px;
+  }
+  .centrokarlotta{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 650px;
+    margin-top: 80px;
+  }
+  .destrakarlotta{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 930px;
+    margin-top: 80px;
+  }
+  .colored-boxkarlotta {
+    position: absolute;
+    display: block;
+    background-color: #4C8E3F;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 530px;
+    padding: 10px;
+    height: 330px;
+    width: 400px;
+    font-size: 18px;
+  }
+  .imagesixkarlotta{
+    width: 100%;
+    height: 100%;
+    margin-top: 60%;
+   }
+   .imagehomekarlotta{
+    width: 100%;
+    height: 100%;
+    margin-top: -4%;
+    margin-left: 50%;
+   }
+   .imagedxkarlotta{
+    width: 100%;
+    height: 100%;
+    margin-top: -3%;
+    margin-left: 97%;
+   }
+  .body4{
+    margin: 0;
+    background-color: #D9655A;
+    font font-family: sans-serif;
+}
+.bannercamillo {
+    background-color:  #4C68A5;
+    padding: 10px;
+    text-align: center;
+    height: 115px;
+    font-size: 24px;
+  }
+  .sinistracamillo{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 390px;
+    margin-top: 80px;
+  }
+  .centrocamillo{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 650px;
+    margin-top: 80px;
+  }
+  .destracamillo{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 930px;
+    margin-top: 80px;
+  }
+  .colored-boxcamillo {
+    position: absolute;
+    display: block;
+    background-color: #4C68A5;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 530px;
+    padding: 10px;
+    height: 330px;
+    width: 400px;
+    font-size: 18px;
+  }
+  .image-containercamillo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-containercamillo img {
+    width: 3%;
+    margin: 0 10px;
+    height: 3%;
+    margin-top: 60%;
+  } 
+  .imagesixcamillo{
+    width: 100%;
+    height: 100%;
+    margin-top: 60%;
+   }
+   .imagehomecamillo{
+    width: 100%;
+    height: 100%;
+    margin-top: -4%;
+    margin-left: 50%;
+   }
+   .imagedxcamillo{
+    width: 100%;
+    height: 100%;
+    margin-top: -3%;
+    margin-left: 97%;
+   }
+  .body5{
+    margin: 0;
+    background-color: #FEAE58;
+    font font-family: sans-serif;
+}
+.bannertim {
+    background-color:  #FE9551;
+    padding: 10px;
+    text-align: center;
+    height: 115px;
+    font-size: 24px;
+  }
+  .sinistratim{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 390px;
+    margin-top: 80px;
+  }
+  .centrotim{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 650px;
+    margin-top: 80px;
+  }
+  .destratim{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 930px;
+    margin-top: 80px;
+  }
+  .colored-boxtim {
+    position: absolute;
+    display: block;
+    background-color: #FE9551;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 530px;
+    padding: 10px;
+    height: 330px;
+    width: 400px;
+    font-size: 18px;
+  }
+  .image-containertim {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-containertim img {
+    width: 3%;
+    margin: 0 10px;
+    height: 3%;
+    margin-top: 60%;
+  }
+  .imagesixtim{
+    width: 100%;
+    height: 100%;
+    margin-top: 60%;
+   }
+   .imagehometim{
+    width: 100%;
+    height: 100%;
+    margin-top: -4%;
+    margin-left: 50%;
+   }
+   .imagedxtim{
+    width: 100%;
+    height: 100%;
+    margin-top: -3%;
+    margin-left: 97%;
+   }
+  .body6{
+    margin: 0;
+    background-color: #E6CF89;
+    font font-family: sans-serif;
+}
+.bannerxoana {
+    background-color:  #C0B8A3;
+    padding: 10px;
+    text-align: center;
+    height: 115px;
+    font-size: 24px;
+  }
+  .sinistraxoana{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 390px;
+    margin-top: 80px;
+  }
+  .centroxoana{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 650px;
+    margin-top: 80px;
+  }
+  .destraxoana{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 930px;
+    margin-top: 80px;
+  }
+  .colored-boxxoana {
+    position: absolute;
+    display: block;
+    background-color: #C0B8A3;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 530px;
+    padding: 10px;
+    height: 330px;
+    width: 400px;
+    font-size: 18px;
+  }
+  .image-containerxoana {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-containerxoana img {
+    width: 3%;
+    margin: 0 10px;
+    height: 3%;
+    margin-top: 60%;
+  }
+  .imagesixxoana{
+    width: 100%;
+    height: 100%;
+    margin-top: 60%;
+   }
+   .imagehomexoana{
+    width: 100%;
+    height: 100%;
+    margin-top: -4%;
+    margin-left: 50%;
+   }
+   .imagedxxoana{
+    width: 100%;
+    height: 100%;
+    margin-top: -3%;
+    margin-left: 97%;
+   }
+  .body7{
+    margin: 0;
+    background-color: #82425A;
+    font font-family: sans-serif;
+}
+.bannerlinn {
+    background-color:  #AD7F81;
+    padding: 10px;
+    text-align: center;
+    height: 115px;
+    font-size: 24px;
+  }
+  .sinistralinn{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 390px;
+    margin-top: 80px;
+  }
+  .centrolinn{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 650px;
+    margin-top: 80px;
+  }
+  .destralinn{
+    display: block;
+    height: 100%;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    margin-left: 930px;
+    margin-top: 80px;
+  }
+  .colored-boxlinn {
+    position: absolute;
+    display: block;
+    background-color: #AD7F81;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 530px;
+    padding: 10px;
+    height: 330px;
+    width: 400px;
+    font-size: 18px;
+  }
+  .image-containerlinn {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-containerlinn img {
+    width: 3%;
+    margin: 0 10px;
+    height: 3%;
+    margin-top: 60%;
+  }
+  .imagesixlinn{
+    width: 100%;
+    height: 100%;
+    margin-top: 60%;
+   }
+   .imagehomelinn{
+    width: 100%;
+    height: 100%;
+    margin-top: -4%;
+    margin-left: 50%;
+   }
+   .imagedxlinn{
+    width: 100%;
+    height: 100%;
+    margin-top: -3%;
+    margin-left: 97%;
+   }
+.body8{
+    margin: 0;
+    background-color: #c3c3a6;
+    font font-family: sans-serif;
+}
+
+.banner {
+  background-color:  #BCBD8B;
+  padding: 5px;
+  text-align: left;
+  height: 115px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 24px;
+}
+.banner h2{
+  margin-top: 80px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.colored-boxchisiamo {
+  position: absolute;
+  display: block;
+  background-color: #BCBD8B;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin-top: 1200px;
+  margin-left: 450px;
+  padding: 10px;
+  height: 70px;
+  width: 650px;
+  font-size: 18px;
+}
+ .boca{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 100%;
+ }
+ .laboca{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 60px;
+    width: 100%;
+ }
+ .karlotta{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 600px;
+    margin-top: 200px;
+    width: 100%;
+ }
+.karlottafre{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40px;
+    width: 100%;
+}
+.camillo{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 1120px;
+    margin-top: 200px;
+    width: 100%;
+}
+.camillohuinca{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40px;
+    width: 100%;
+}
+.tim{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 700px;
+    width: 100%;
+}
+.timlahan{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 50px;
+    width: 100%;
+}
+.xoana{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 600px;
+    margin-top: 700px;
+    width: 100%;
+}
+.xoanaherrera{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40px;
+    width: 100%;
+}
+.linn{
+    display: block;
+    position: absolute;
+    margin-right: auto;
+    margin-left: 1120px;
+    margin-top: 700px;
+    width: 100%;
+}
+.linnfritz{
+    font-size: 18px;
+    top: 60%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40px;
+    width: 100%;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.immfrecciasx{
+  width: 100%;
+  margin: 0 10px;
+  height: 3%;
+  margin-top: 1352px;
+  position: absolute;
+}
+.immhome{
+  width: 100%;
+  margin: 0 10px;
+  height: 3%;
+  margin-left: 700px;
+  position: absolute;
+  margin-top: 1352px;
+}
